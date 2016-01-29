@@ -1,6 +1,6 @@
-# diamorse
+# DVM
 
-Digital image analysis using discrete Morse theory and persistent homology.
+This github is for an Illinois Geometry Lab Project (University of Illinois Urbana-Champaign) entitled "Discrete Morse Theory, Vector Fields, and Materials Science". It was created from a fork of a github developed at the Australian National University (ANU) containing code for digital image analysis using discrete Morse theory and persistent homology. (Please see the reference for the related paper.)
 
 ## Reference
 
