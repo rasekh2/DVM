@@ -1,0 +1,83 @@
+Last login: Thu Jan 28 09:52:01 on ttys006
+Macintosh-0026b0d5f8d0-2:~ ruthdavidson$ cd 
+Macintosh-0026b0d5f8d0-2:~ ruthdavidson$ cd code
+Macintosh-0026b0d5f8d0-2:code ruthdavidson$ git clone https://github.com/redavids/DVM.git
+Cloning into 'DVM'...
+remote: Counting objects: 113, done.
+remote: Total 113 (delta 0), reused 0 (delta 0), pack-reused 113
+Receiving objects: 100% (113/113), 94.02 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (34/34), done.
+Checking connectivity... done.
+Macintosh-0026b0d5f8d0-2:code ruthdavidson$ git pul
+git: 'pul' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	pull
+	push
+Macintosh-0026b0d5f8d0-2:code ruthdavidson$ git pull
+Updating 734b9e3..fb95f0f
+error: Your local changes to the following files would be overwritten by merge:
+	ruth1-22-15.sh
+Please, commit your changes or stash them before you can merge.
+Aborting
+Macintosh-0026b0d5f8d0-2:code ruthdavidson$ cd DVM/
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ ls
+Makefile	python		src
+README.md	scripts		test
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git pull
+Already up-to-date.
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git vi README.md 
+git: 'vi' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	svn
+	var
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ vi README.md 
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git add README.md 
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git commit
+[master 1c12a09] README update
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 546 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/redavids/DVM.git
+   8d0f6c3..1c12a09  master -> master
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ vi README.md
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git add README.md 
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git commit
+[master a4b5141] updated README
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/redavids/DVM.git
+   1c12a09..a4b5141  master -> master
+Macintosh-0026b0d5f8d0-2:DVM ruthdavidson$ 
